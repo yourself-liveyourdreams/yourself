@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>YOURSELF</title>
     <link rel="icon" href="">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -23,6 +24,13 @@
             size: 10px;
             font-style: normal
         }
+
+        @media (max-width: 767px) {
+            nav a img {
+                display: none;
+            }
+        }
+
    	</style>
 </head>
 
@@ -32,7 +40,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href=""> <img src="img/header.jpg" alt="logo"> </a>
+                        <a class="navbar-brand" href="#"> <img src="img/header.jpg" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="menu_icon"><i class="fas fa-bars"></i></span>
                         </button>
